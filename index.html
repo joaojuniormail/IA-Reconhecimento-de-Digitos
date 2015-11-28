@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Redes Neurais - Reconhecimento de Dígitos</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="http://cdn.jsdelivr.net/bootstrap/3.3.5/css/bootstrap.min.css"></link>
+</head>
+
+<body onload="app.init()">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 text-center">
+                <h1>Inteligência Artificial</h1>
+                <h2>Reconhedimento de Dígitos através de Manuscrito</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-offset-2 col-sm-4">
+                <div class="box">
+                    <div id="draw-digit"></div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="box">
+                    <div id="neural-representation"></div>
+                    <div id="result">&nbsp;</div>
+                    <div class="buttons">
+                        <button id="clean" class="btn btn-default">Limpar</button>
+                        <button id="check" class="btn btn-primary">Verificar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="http://cdn.jsdelivr.net/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="js/encog.js"></script>
+    <script src="js/encog-widget.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

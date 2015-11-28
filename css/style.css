@@ -1,0 +1,27 @@
+.box {
+    margin: 30px 0;
+}
+#draw-digit {
+    border: 1px solid #666;
+    background: white;
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+}
+#neural-representation {
+    background: white;
+    width: 100%;
+    max-width: 110px;
+    margin: auto;
+}
+#result {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 60px;
+}
+.buttons {
+    text-align: center;
+}
+.buttons button {
+    display: inline-block;
+}
