@@ -29,14 +29,6 @@ var NeuralNetwork = function () {
                 }
             };
 
-            window.addEventListener('resize', function () {
-                clearTimeout();
-                setTimeout(function () {
-                    drawView.canvas.width = Math.ceil(drawElement.width());
-                    drawView.canvas.height = Math.ceil(drawElement.width());
-                }, 300);
-            }, false);
-
             document.getElementById('clean').addEventListener('click', self.cleanView, false);
             document.getElementById('check').addEventListener('click', self.checkDigit, false);
 

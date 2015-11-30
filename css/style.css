@@ -31,5 +31,6 @@
     padding-top: 10px;
 }
 .list li{
+    word-wrap: break-word;
     margin: 10px 0;
 }
