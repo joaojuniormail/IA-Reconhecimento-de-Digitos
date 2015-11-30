@@ -70,7 +70,6 @@ var NeuralNetwork = function () {
             self.showRepresentationCurrent();
             var bestChar = '??';
             var bestScore = 0;
-
             for (var c in charData) {
                 var data = charData[c];
                 var sum = 0;
